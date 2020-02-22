@@ -1,0 +1,19 @@
+<scroll-view scroll-y="true" enable-back-to-top="true" style="height:{{height}}px">
+  <view class="container">
+    <view wx:if="{{items.length}}" bindtap="doPreview" bindlongpress="doDelete" style="width:{{width/3}}px;height:{{width/3}}px" wx:for="{{items}}" wx:key="{{index}}" data-objid="{{items[index]._id}}" data-objurl="{{items[index].tempFileURL}}" data-fileid="{{items[index].fileID}}">
+      <image mode="aspectFill" style="width:{{width/3}}px;height:{{width/3}}px" src="{{items[index].tempFileURL}}"></image>
+    </view>
+    <view wx:if="{{items.length == 0}}" class="show-tip">你还没有上传任何图片，赶紧上传吧</view>
+    <view class="action" wx:if="{{count > 0}}">
+      <view>共 {{count}} 张照片，当前 {{current_page}}/{{total_page}} 页</view>
+      <view class="action-btn" wx:if="{{total_page >= 2}}">
+        <text wx:if="{{current_page > 1}}" bindtap="doPrePage">上一页</text>
+        <text wx:if="{{current_page < total_page}}" bindtap="doNextPage">下一页</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+
+<view class="upload" bindtap="doUpload">
+  <text>上传图片</text>
+</view>

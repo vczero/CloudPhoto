@@ -1,0 +1,74 @@
+page{
+  background-color: #000;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+
+.container>view{
+  display: flex;
+  box-sizing: border-box;
+  border:1px solid #000;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload{
+  background-color: #DB3B26;
+  color: #fff;
+  font-size: 15px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  left: 20px;
+  right: 20px;
+  position: fixed;
+  bottom: 30px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-tip{
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  top: 150px;
+  display: flex;
+  flex: 1;
+  left: auto;
+  right: auto;
+}
+
+.action{
+  display: flex;
+  width: 100%;
+  margin-top:40px;
+  color: #ffffff;
+  font-size: 14px;
+  flex-direction: column;
+}
+
+.action-btn>text{
+  display: inline-block;
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+.action-btn>text:first-child{
+  margin-right: 10px;
+}
+

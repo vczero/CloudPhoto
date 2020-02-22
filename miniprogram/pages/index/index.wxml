@@ -1,0 +1,50 @@
+<view class="container">
+  <view class="banner">
+    <view>
+      <text>每一张图片都值得认真对待</text>
+      <text>欢迎使用小程序，进行图片分类管理</text>
+    </view>
+  </view>
+  <view class="block">
+    <view bindtap="goToCategory" data-type="家庭相册">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/001.png"></image>
+      <text>家庭相册</text>
+    </view>
+    <view bindtap="goToCategory" class="left-border" data-type="亲朋相册">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/002.png"></image>
+      <text>亲朋相册</text>
+    </view>
+    <view bindtap="goToCategory" class="left-border" data-type="自拍">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/003.png"></image>
+      <text>个人自拍</text>
+    </view>
+    <view bindtap="goToCategory" class="top-border" data-type="票据管理">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/004.png"></image>
+      <text>票据管理</text>
+    </view>
+    <view bindtap="goToCategory" class="top-border left-border" data-type="说明书管理">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/005.png"></image>
+      <text>礼账管理</text>
+    </view>
+    <view bindtap="goToCategory" class="top-border left-border" data-type="车船票留念">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/006.png"></image>
+      <text>车船票留念</text>
+    </view>
+    <view bindtap="goToCategory" class="top-border" data-type="风景照片">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/007.png"></image>
+      <text>风景美如画</text>
+    </view>
+    <view bindtap="goToCategory" class="top-border left-border" data-type="知识碎片">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/008.png"></image>
+      <text>知识碎片</text>
+    </view>
+    <view bindtap="goToCategory" class="top-border left-border" data-type="青春纪念册">
+      <image mode="aspectFit" src="cloud://cloud-93j05.636c-cloud-93j05-1300954686/cloud_iocns/009.png"></image>
+      <text>青春纪念册</text>
+    </view>
+  </view>
+
+  <view class="footer">
+    云开发提供计算服务@2020
+  </view>
+</view>
