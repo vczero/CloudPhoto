@@ -13,5 +13,6 @@
 	"projectname": "小小收藏夹",
 	"libVersion": "2.5.0",
 	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {}
+	"simulatorPluginLibVersion": {},
+	"condition": {}
 }
