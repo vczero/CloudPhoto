@@ -36,4 +36,4 @@ CloudPhoto 即云相册。私有相册，在微信内无需要登录使用，直
 ![](https://tuchuang001.oss-cn-hangzhou.aliyuncs.com/111113.png?v1)      
 
 ## 附录
-- [云开发产品网址](https://cloud.tencent.com/product/tcb?ref=vczero)
+- [云开发产品网址](https://cloudbase.net?ref=vczero)
